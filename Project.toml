@@ -1,0 +1,13 @@
+name = "FastOptics"
+uuid = "73013fc3-f53d-4a0b-96c7-39d20c9f2ffa"
+authors = ["Benjamin Cichos b.cichos@me.com"]
+version = "0.1.0"
+
+[compat]
+julia = "1.8.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
